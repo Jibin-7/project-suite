@@ -114,24 +114,7 @@ The suite is built with a premium visual aesthetic designed to impress at first 
 
 ## 📦 Live Deployment
 
-This project is pre-configured for instant deployment on any modern static hosting platform:
-
-### Deploy to Vercel (Recommended)
-```bash
-npx vercel --prod
-```
-*(The included `vercel.json` automatically handles SPA routing rewrites).*
-
-### Deploy to Netlify
-```bash
-npm run build
-```
-*(Drag and drop the `dist/` folder onto [Netlify Drop](https://app.netlify.com/drop). The included `public/_redirects` file automatically prevents 404 errors).*
-
-### Deploy to Surge
-```bash
-npx surge dist
-```
+https://internship-suite.vercel.app/
 
 ---
 
