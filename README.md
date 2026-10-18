@@ -1,4 +1,4 @@
-# 🚀 Advanced React Internship Suite
+# Project Suite | Interactive React Applications
 
 <div align="center">
 
@@ -8,7 +8,7 @@
 ![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)
 ![RapidAPI](https://img.shields.io/badge/RapidAPI-0055FF?style=for-the-badge&logo=rapid&logoColor=white)
 
-**A unified, state-of-the-art multi-tool web application built to fulfill and exceed modern software engineering internship evaluation requirements.**
+**A multi-tool React web application that brings several frontend exercises into one navigable suite.**
 
 [Features](#-core-features) • [Hook Architecture](#-react-hooks-mastery-showcase) • [Getting Started](#-getting-started) • [Live Hosting](#-live-deployment)
 
@@ -16,7 +16,7 @@
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 This repository unites **three distinct core internship project requirements** into a single, cohesive, enterprise-grade React web suite engineered with **Vite**, styled with **Tailwind CSS**, and architected using **React Router DOM v6**. 
 
@@ -24,9 +24,9 @@ Rather than building three isolated repositories, this suite provides an interac
 
 ---
 
-## ✨ Core Features
+## Core Features
 
-### 1️⃣ AI Text Translator Application (`/translator`)
+### 1. AI Text Translator (`/translator`)
 A dynamic translation tool that converts English text into 14+ world languages with real-time feedback and audio speech synthesis.
 * **RapidAPI Integration**: Connects directly to enterprise translation endpoints (such as *Google Translate API* and *Deep Translate API* on RapidAPI) using custom authentication headers (`X-RapidAPI-Key` and `X-RapidAPI-Host`).
 * **Interactive API Key Drawer**: Allows evaluators or users to paste their own RapidAPI key or switch between translation providers in real time.
@@ -36,7 +36,7 @@ A dynamic translation tool that converts English text into 14+ world languages w
 
 ---
 
-### 2️⃣ Crypto-Grade Random String & Password Generator (`/generator`)
+### 2. Random String and Password Generator (`/generator`)
 An advanced string generation suite built specifically to demonstrate strict mastery of modern React Hooks.
 * **Real-Time Auto-Regeneration**: Adjusting the length slider or toggling character types generates a secure cryptographic string instantly without requiring manual button clicks.
 * **Entropy & Strength Calculation**: Evaluates character diversity and length to dynamically compute password strength (*Weak*, *Moderate*, *Strong*, or *Unbreakable*) with animated visual meters.
@@ -44,14 +44,14 @@ An advanced string generation suite built specifically to demonstrate strict mas
 
 ---
 
-### 3️⃣ Client-Side SPA Routing (`react-router-dom` v6)
+### 3. Client-Side Routing (`react-router-dom` v6)
 * **Single Page Application (SPA)**: Configured with centralized `<BrowserRouter>`, `<Routes>`, and `<Route>` architecture for zero-reload navigation.
 * **Active State Preservation**: Implements `<NavLink>` across the application sidebar and navigation bar with dynamic visual styling and status badges.
 * **Production Host Rewrites**: Pre-configured with Netlify (`_redirects`), Vercel (`vercel.json`), and static host (`200.html` / `404.html`) rewrite rules to guarantee that page refreshes on nested routes never throw 404 errors.
 
 ---
 
-## 🧠 React Hooks Mastery Showcase
+## React Hooks
 
 The **Random String Generator** (`/generator`) serves as an interactive showcase demonstrating when, why, and how to implement core React Hooks cleanly:
 
@@ -83,7 +83,7 @@ The suite is built with a premium visual aesthetic designed to impress at first 
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 * [Node.js](https://nodejs.org/) (v16 or higher)
